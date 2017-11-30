@@ -7,17 +7,29 @@
     "dist"
   ],
   "scripts": {
+    "eslint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mvgon4/jangitau.git"
   },
-  "keywords": ["nodejs", "file server"],
+  "keywords": [
+    "nodejs",
+    "file server"
+  ],
   "author": "Michael Goncharov",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mvgon4/jangitau/issues"
   },
-  "homepage": "https://github.com/mvgon4/jangitau#readme"
+  "homepage": "https://github.com/mvgon4/jangitau#readme",
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
 }
