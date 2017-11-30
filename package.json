@@ -1,0 +1,23 @@
+{
+  "name": "jangitau",
+  "version": "1.0.0",
+  "description": "Zero dependency local file server",
+  "main": "dist/server.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvgon4/jangitau.git"
+  },
+  "keywords": ["nodejs", "file server"],
+  "author": "Michael Goncharov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvgon4/jangitau/issues"
+  },
+  "homepage": "https://github.com/mvgon4/jangitau#readme"
+}
