@@ -16,6 +16,7 @@
     "start": "node dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "eslintIgnore": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mvgon4/jangitau.git"
